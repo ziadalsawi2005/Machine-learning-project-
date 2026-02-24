@@ -34,7 +34,11 @@ project/
 3. Place your dataset files in the `data/` directory
 
 ## Usage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% very important :
+please to run this program please try to dowenload the data to train the model i sugguest for you " https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset?resource=download " please dowenload it and but it in folder named it " data " ok 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Run the complete pipeline:
 ```
 python main.py
@@ -48,4 +52,6 @@ python src/predict.py --input_file=path/to/test_data.csv
 
 ## Security Considerations
 
+
 This system prioritizes minimizing false negatives (attacks that go undetected) which are critical in security contexts. The model selection process specifically emphasizes recall as the primary metric since missing an attack is far worse than flagging normal traffic as suspicious.
+
